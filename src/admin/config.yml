@@ -1,6 +1,6 @@
 backend: 
   name: github
-  repo: matthewjlewis93/wine30
+  repo: Wine-website/wine30
   api_root: https://api.github.com
   base_url: https://api.netlify.com/
   auth_endpoint: auth

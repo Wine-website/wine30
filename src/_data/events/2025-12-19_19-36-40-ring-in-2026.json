@@ -1,7 +1,8 @@
 {
   "eventtype": "event",
-  "title": "Ringing in 2026",
+  "title": "Ringing in 2026 New Years Eve",
   "date": "2025-12-31",
-  "start": "19:00",
-  "end": "23:30"
+  "start": "13:00",
+  "end": "23:30",
+  "closed": false
 }

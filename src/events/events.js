@@ -62,12 +62,8 @@ displayEvent = (x) => {
       hiddenElement.querySelector(
         "[calendar-role='registration-link']"
       ).href;
-    eventWindow.querySelector("[calendar-role='registration-link']").style.visibility = "visible";
   } else {
     eventWindow.querySelector("[calendar-role='registration-link']").href = "";
-    eventWindow.querySelector(
-      "[calendar-role='registration-link']"
-    ).style.visibility = "hidden";
   };
 
   eventWindow.querySelector("[calendar-role='date']").innerText = `${
@@ -76,11 +72,10 @@ displayEvent = (x) => {
     hiddenElementDate.split("-")[0]
   }`;
 
-  eventWindow.style.visibility = "visible";
+  eventWindow.showModal();
 };
 hideEvent = () => {
-  document.getElementById("event-popup").style.visibility = "hidden";
-  document.getElementById("calendar-registration").style.visibility = "hidden"
+  document.getElementById("event-popup").close();
 };
 
 createCalendar = (dateObject) => {

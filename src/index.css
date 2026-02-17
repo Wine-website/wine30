@@ -407,7 +407,7 @@ nav>a {
   padding: 1.2rem 5px 0px 10px;
   width: min(80svw, 80svh);
   z-index: 3;
-  background: linear-gradient( #888888, #777777, hsla(265, 15%, 22%));
+  background: linear-gradient( #888888, #777777, #373041);
   max-height: 95svh;
   overflow-y: auto;
 }
@@ -422,6 +422,7 @@ dialog p:empty {
   background-color: unset;
 }
 a[href=''] {
+  /* Hide buttons with no link */
   visibility: hidden;
 }
 

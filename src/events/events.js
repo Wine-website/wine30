@@ -1,6 +1,6 @@
 const monthArray = [
   "January",
-  "Febuary",
+  "February",
   "March",
   "April",
   "May",

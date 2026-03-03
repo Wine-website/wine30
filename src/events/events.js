@@ -40,14 +40,13 @@ displayEvent = (x) => {
     x.parentElement.parentElement.children[0].getAttribute("date");
   const elementTime = x.parentElement.getAttribute("time");
 
-
   const hiddenElement = Array.from(
     document.querySelectorAll(`div[date='${elementDate}']`)
   ).filter(
     (e) =>
       e
         .querySelector("[calendar-role='start']")
-        .innerText.replace(/(?<!:00)\s/, ":00 ") == elementTime.trim()
+        .innerText.replace(/(?<!:\d\d)\s/, ":00 ") == elementTime.trim()
   )[0];
 
   const hiddenElementDate = hiddenElement.getAttribute("date");
@@ -118,7 +117,7 @@ createCalendar = (dateObject) => {
                 formattedTime[index]
               }'  class='calendar-event-preview' onclick='displayEvent' ><span style='cursor: pointer; background-color: white; border-top-left-radius: 2px; border-bottom-left-radius: 2px; padding: 1px' >❗</span><span style='cursor: pointer; background-color: #eee; border-top-right-radius: 2px; border-bottom-right-radius: 2px; padding: 1px' > ${
                 date.querySelector("[calendar-role='subtitle']")
-                  ? date.querySelector("[calendar-role='subtitle']").innerText
+                  ? date.querySelector("[calendar-role='subtitle']").innerHTML.replaceAll(date.querySelector("[calendar-role='subtitle']").innerHTML[date.querySelector("[calendar-role='subtitle']").innerHTML.search(/\w\/\w/) +1], "/<wbr />")
                   : formattedTime[index]
               } </span></p>`
           )

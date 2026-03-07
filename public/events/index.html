@@ -21,12 +21,12 @@
          <a href="/wine-club" >Wine Club</a>
     </nav>
 </header>
-<div id="event-title"><h1>Events</h1><br /><a href class="link-button" id="event-registration-btn" >Event Registration</a></div>
+<div id="event-title" class="page-title"><h1>Events</h1><br /><a href class="link-button" id="event-registration-btn" >Event Registration</a></div>
 
 <section id="calendar">
     <div id="calendar-head">
         <h2 style="grid-column: span 7;">Calendar</h2>
-        <span></span><button onclick="changeMonth(-1)"><svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" viewBox="0 -960 960 960" width="1.5rem" fill="#111"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></button><h4 style="grid-column: span 3; text-align: center;" id="month-name"></h4><button onclick="changeMonth(1)"><svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" viewBox="0 -960 960 960" width="1.5rem" fill="#111"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></button><span></span>
+        <span></span><button onclick="changeMonth(-1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#111"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></button><h4 style="grid-column: span 3; text-align: center;" id="month-name"></h4><button onclick="changeMonth(1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#111"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></button><span></span>
 
         <h5 class="day-name">Sun</h5>
         <h5 class="day-name">Mon</h5>
@@ -58,13 +58,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Nov</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >27</h3>
                   </div>
 
                   
-                  <p calendar-role="start" style="padding: 0px; font-size: 1rem; justify-self: center;">Closed<span calendar-role="end"></span></p>
+                  <p calendar-role="start" style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;">Closed<span calendar-role="end"></span></p>
 
                   
                 </p>
@@ -74,7 +74,7 @@
         
         <div calendar-role="event" date=2025-12-006 >
               <div style="display: flex; flex-direction: column; justify-content: center; padding-bottom: 1rem; ">
-                  <h3 calendar-role="title" style="letter-spacing: normal; font-size: 2.5rem;">Wine Club Event</h3>
+                  <h3 calendar-role="title" style="letter-spacing: normal; font-size: 2.5rem;">Wine Club Event open to members only</h3>
 
                   
 
@@ -82,13 +82,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Dec</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >06</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >4 PM</span><span calendar-role="end" > - 7 PM</span>
                 
                   
@@ -107,13 +107,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Dec</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >20</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >7 PM</span><span calendar-role="end" > - 10 PM</span>
                 
                   
@@ -132,13 +132,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Dec</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >24</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;"><span calendar-role="start" >Open</span><span calendar-role="end"> from: <br /> 1 PM - 5 PM</span></p>
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;"><span calendar-role="start" >Open</span><span calendar-role="end"> from: <br /> 1 PM - 5 PM</span></p>
 
                   
                 </p>
@@ -156,13 +156,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Dec</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >25</h3>
                   </div>
 
                   
-                  <p calendar-role="start" style="padding: 0px; font-size: 1rem; justify-self: center;">Closed<span calendar-role="end"></span></p>
+                  <p calendar-role="start" style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;">Closed<span calendar-role="end"></span></p>
 
                   
                 </p>
@@ -180,13 +180,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Dec</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >31</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >1 PM</span><span calendar-role="end" > - 11:30 PM</span>
                 
                   
@@ -205,13 +205,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Jan</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >10</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >7 PM</span><span calendar-role="end" > - 10 PM</span>
                 
                   
@@ -230,13 +230,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Jan</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >17</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >7 PM</span><span calendar-role="end" > - 10 PM</span>
                 
                   
@@ -255,13 +255,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Feb</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >21</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >7 PM</span><span calendar-role="end" > - 10 PM</span>
                 
                   
@@ -280,13 +280,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Feb</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >28</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >7 PM</span><span calendar-role="end" > - 10 PM</span>
                 
                   
@@ -307,13 +307,13 @@
                   <p calendar-role="description" >Closed for Wine Club Quarterly Event   Members only from 3:30-06:30pm<br />Live Music Featuring M&J Duo from 7-10pm  </p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Mar</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >07</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;"><span calendar-role="start" >Open</span><span calendar-role="end"> from: <br /> 1 PM - 7 PM</span></p>
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;"><span calendar-role="start" >Open</span><span calendar-role="end"> from: <br /> 1 PM - 7 PM</span></p>
 
                   
                 </p>
@@ -335,13 +335,13 @@
                   <p calendar-role="description" >Join us here at Wine:30 for a fun crafty evening making an Easter Wreath<br />Pre-register on line $45.00 includes supplies, instructions and a glass of bubbles.<br />If you have additional items you would like to add to your wreath as decor, please feel free to bring with you.   </p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Mar</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >11</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >6:30 PM</span><span calendar-role="end" > - 8:30 PM</span>
                 
                   
@@ -362,13 +362,13 @@
                   <p calendar-role="description" >Live Music featuring the sounds of Hit Repeat</p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Mar</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >14</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >7 PM</span><span calendar-role="end" > - 10 PM</span>
                 
                   
@@ -391,13 +391,13 @@
                   <p calendar-role="description" >Join us here at Wine:30 for a fun crafty evening making an Easter Wreath<br />Pre-register on line $45.00 includes supplies, instructions and a glass of bubbles.<br />If you have additional items you would like to add to your wreath as decor, please feel free to bring with you.   </p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Mar</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >15</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >2 PM</span><span calendar-role="end" > - 4 PM</span>
                 
                   
@@ -416,13 +416,13 @@
                   <p calendar-role="description" ></p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Mar</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >21</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >7 PM</span><span calendar-role="end" > - 10 PM</span>
                 
                   
@@ -441,13 +441,13 @@
                   <p calendar-role="description" >Join us for great music from Karen and Jesse ~ The Rock Blues Band<br />Enjoy delicious wine, charcuterie boards and flatbreads with great friends!<br />Never a cover, just a great time!</p>
               </div>
               <div>
-                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white; " >
+                  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;  background-color: hsl(265, 89%, 70%); border-radius: 10px; aspect-ratio: 1; height: 8rem; padding-bottom: 0.8rem; color: white;" >
                       <p style="font-size: 3rem; padding: 0px;">Mar</p>
                       <h3 style="margin: 0px; letter-spacing: -2px;" >28</h3>
                   </div>
 
                   
-                  <p style="padding: 0px; font-size: 1rem; justify-self: center;" >
+                  <p style="padding: 0px; font-size: 1rem; justify-self: center; text-align: center;" >
                     <span calendar-role="start" >7 PM</span><span calendar-role="end" > - 10 PM</span>
                 
                   
